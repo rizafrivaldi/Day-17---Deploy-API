@@ -1,19 +1,35 @@
 {
-  "name": "day-16---api-file-upload",
+  "name": "day-16-api-file-upload",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Fullstack Learning - Day 16: File Upload API with Authentication",
+  "main": "src/server.js",
   "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "build": "npx prisma generate",
+    "migrate": "npx prisma migrate deploy",
+    "studio": "npx prisma studio",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "api",
+    "upload",
+    "authentication",
+    "express",
+    "prisma"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "dependencies": {
     "@prisma/client": "^6.19.2",
     "bcryptjs": "^3.0.3",
     "cloudinary": "^1.41.3",
+    "cors": "^2.8.6",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
@@ -22,5 +38,8 @@
     "prisma": "^6.19.2",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
