@@ -1,1 +1,23 @@
+#Dependencies
+node_modules/
+
+#Environtment variables
 .env
+
+#Uploads
+uploads/
+
+#Logs
+*.log
+npm-debug.log*
+
+#DS
+.DS_Store
+Thumbs.db
+
+#IDE
+.vscode/
+.idea/
+
+#Prisma
+.prisma/
