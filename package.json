@@ -1,7 +1,7 @@
 {
-  "name": "day-16-api-file-upload",
+  "name": "day-17-deploy-api",
   "version": "1.0.0",
-  "description": "Fullstack Learning - Day 16: File Upload API with Authentication",
+  "description": "Fullstack Learning - Day 17: Deploy API with Database",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
